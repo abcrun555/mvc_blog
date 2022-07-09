@@ -8,7 +8,6 @@ function transform() {
   mainarticle.remove();
   admin.remove();
 
-
   let message = document.createElement("form");
   message.action = `/admin/update/${postid}`;
   message.method = "post";
@@ -45,32 +44,4 @@ function updateValidation() {
 
 
 
-// function postInform() {
 
-  /* addEventListener("submit", function() {
-    alert("Щёлк!"); */
-/*   if (document.referrer.includes("/main/send")) {
-    alert("Ваш пост будет опубликован после рассмотрения модератором, не позже, чем через двенадцать часов");
-} */
-// if (localStorage.getItem('post')) {
-    // alert("Ваш пост будет опубликован после рассмотрения модератором, не позже, чем через двенадцать часов");
-    // localStorage.clear();
-// }
-
-// }
-
-    /*
-    message.setAttribute("method", "post");
-    message.setAttribute("action", "submit.php");
-    let txt=document.createElement("input");
-  message.appendChild("txt");
-  
-    txt.setAttribute("type","text")
-
-    let ein= document.createElement('div');
-    ein.
-    ein.innerText='kdjfkwdfwdhwidh'; */
-
-
-
-/* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement?retiredLocale=uk */
